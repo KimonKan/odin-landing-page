@@ -13,6 +13,7 @@
 }
 
 body {
+    margin: 0;
     font-family: Roboto, sans-serif;
     background-color: var(--clr_bg);
 }
@@ -20,6 +21,7 @@ body {
 .nav-list {
     margin: 0px;
     padding: 1rem 0;
+    padding-top: 1.5rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -50,7 +52,6 @@ body {
 }
 
 hr {
-    margin: 5px -8px 20px;
     border: 0;
     border-top: 1px solid #c9c7c7;
 }
@@ -101,4 +102,31 @@ hr {
     width: 600px;
     height: 300px;
     border-radius: 5%;
+}
+
+.content {
+    padding: 1rem;
+    background-color: var(--clr_main);
+    align-items: center;
+    text-align: center;
+}
+
+.gallery {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    margin-right: 5rem;
+    border-radius: 15%;
+    border-style: solid;
+    border-color: var(--clr_secondary);
+    width: 150px;
+    height: 150px;
+}
+
+.gallery p {
+    margin-right: 5rem;
 }
