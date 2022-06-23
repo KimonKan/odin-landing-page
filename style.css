@@ -119,14 +119,10 @@ hr {
 }
 
 .gallery img {
-    margin-right: 5rem;
+    margin: 0 2rem;
     border-radius: 15%;
     border-style: solid;
     border-color: var(--clr_secondary);
     width: 150px;
     height: 150px;
-}
-
-.gallery p {
-    margin-right: 5rem;
 }
