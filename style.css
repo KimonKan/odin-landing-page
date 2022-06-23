@@ -126,3 +126,12 @@ hr {
     width: 150px;
     height: 150px;
 }
+
+.quote {
+    margin-top: 5rem;
+}
+
+.quote p {
+    font-style: italic;
+    opacity: 0.7;
+}
